@@ -43,3 +43,5 @@ public void testTruncateAInFirst2Positions_validInput(){}
 
 # 3. Tests should be atomic
 If a test requires more than one conditions, another tests should be created for the exact condition. 
+
+# 4. For every class that is tested, make sure that their is a seperate test file for that exact file.

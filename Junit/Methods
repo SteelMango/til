@@ -1,0 +1,30 @@
+# Methods
+
+assertEquals -  two values match = Pass
+
+assertFalse - the test must be invalid to pass
+
+```java
+ // Test should pass despite it having bad parameters 
+
+numbers num = new numbers();
+
+@Test
+public void invalidNum_isEven() {
+    boolean actual = num.isEven("!@");
+    assertFalse(actual);   
+}
+```
+
+@BeforeClass -  at the very start before every test is ran, run x code#
+
+```java
+ @BeforeClass
+    public static void beforeClass() {
+        System.out.println("Test: StringHelper.java");
+    }
+
+    // Output: Test: StringHelper.java
+
+
+```
