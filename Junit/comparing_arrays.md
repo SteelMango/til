@@ -39,7 +39,7 @@ public class ArraysTest {
 ```
 
 # 3. How the assertArrayEquals work 
-Given two arrays to see if they are equal, the code will check if the index starting at 0 is the same, if they are it will move to the next index to count
+Given two arrays to see if they are equal, the code will check if the value at the index starting 0 is the same, if they are it will move to the next index to count
 ```java
 // Despite having the same values, this will be a failing test
 array1 = 1,2,3
